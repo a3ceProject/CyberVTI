@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+pandas = "*"
+plotly = "*"
+joblib = "*"
+progress = "*"
+sklearn = "*"
+kneed = "*"
+tqdm = "*"
+flask-restful = "*"
+flask-limiter = "*"
+flasgger = "*"
+jinja2 = "*"
+flask-restful-swagger = "*"
+flask = "*"
+flask-swagger-ui = "*"
+flake8 = "*"
+autopep8 = "*"
+sqlalchemy = "*"
+halo = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
